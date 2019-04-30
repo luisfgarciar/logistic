@@ -1,0 +1,38 @@
+{
+    "generator-jhipster": {
+        "promptValues": {
+            "packageName": "com.luisfgarciar.logistic",
+            "nativeLanguage": "en"
+        },
+        "jhipsterVersion": "5.8.2",
+        "applicationType": "monolith",
+        "baseName": "logistic",
+        "packageName": "com.luisfgarciar.logistic",
+        "packageFolder": "com/luisfgarciar/logistic",
+        "serverPort": "8080",
+        "authenticationType": "jwt",
+        "cacheProvider": "ehcache",
+        "enableHibernateCache": true,
+        "websocket": false,
+        "databaseType": "sql",
+        "devDatabaseType": "mysql",
+        "prodDatabaseType": "mysql",
+        "searchEngine": false,
+        "messageBroker": false,
+        "serviceDiscoveryType": false,
+        "buildTool": "gradle",
+        "enableSwaggerCodegen": false,
+        "jwtSecretKey": "MzI4ZjA5MzI5ZDFhMTM5MjEzM2U5M2M3MGQzOWYwM2Y2NmEwMWQ3MGM4YTY4Y2Q5ZjdkMDE2ODk0NDk2NjFmYjY4YTI4MDQ0MzRiOTM3ZWNkMjRhMzllMjc5NDM1ODRlZTViYzY5NTIyMDhjYmE4MjdkM2Y1ZDA1NmExNGY5NDA=",
+        "clientFramework": "angularX",
+        "useSass": true,
+        "clientPackageManager": "npm",
+        "testFrameworks": [],
+        "jhiPrefix": "jhi",
+        "entitySuffix": "",
+        "dtoSuffix": "DTO",
+        "otherModules": [],
+        "enableTranslation": true,
+        "nativeLanguage": "en",
+        "languages": ["en", "pt-br", "es"]
+    }
+}
