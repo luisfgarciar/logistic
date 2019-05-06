@@ -12,13 +12,13 @@
                 <dt><span jhiTranslate="logisticApp.product.productType">Product Type</span></dt>
                 <dd>
                     <div *ngIf="product.productType">
-                        <a [routerLink]="['/product-type', product.productType?.id, 'view']">{{product.productType?.id}}</a>
+                        <a [routerLink]="['/product-type', product.productType?.id, 'view']">{{product.productType?.name}}</a>
                     </div>
                 </dd>
                 <dt><span jhiTranslate="logisticApp.product.provider">Provider</span></dt>
                 <dd>
                     <div *ngIf="product.provider">
-                        <a [routerLink]="['/provider', product.provider?.id, 'view']">{{product.provider?.id}}</a>
+                        <a [routerLink]="['/provider', product.provider?.id, 'view']">{{product.provider?.name}}</a>
                     </div>
                 </dd>
             </dl>

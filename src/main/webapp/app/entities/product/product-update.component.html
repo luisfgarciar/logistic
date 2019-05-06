@@ -25,14 +25,14 @@
                     <label class="form-control-label" jhiTranslate="logisticApp.product.productType" for="field_productType">Product Type</label>
                     <select class="form-control" id="field_productType" name="productType" [(ngModel)]="product.productType" >
                         <option [ngValue]="null"></option>
-                        <option [ngValue]="productTypeOption.id === product.productType?.id ? product.productType : productTypeOption" *ngFor="let productTypeOption of producttypes; trackBy: trackProductTypeById">{{productTypeOption.id}}</option>
+                        <option [ngValue]="productTypeOption.id === product.productType?.id ? product.productType : productTypeOption" *ngFor="let productTypeOption of producttypes; trackBy: trackProductTypeById">{{productTypeOption.name}}</option>
                     </select>
                 </div>
                 <div class="form-group">
                     <label class="form-control-label" jhiTranslate="logisticApp.product.provider" for="field_provider">Provider</label>
                     <select class="form-control" id="field_provider" name="provider" [(ngModel)]="product.provider" >
                         <option [ngValue]="null"></option>
-                        <option [ngValue]="providerOption.id === product.provider?.id ? product.provider : providerOption" *ngFor="let providerOption of providers; trackBy: trackProviderById">{{providerOption.id}}</option>
+                        <option [ngValue]="providerOption.id === product.provider?.id ? product.provider : providerOption" *ngFor="let providerOption of providers; trackBy: trackProviderById">{{providerOption.name}}</option>
                     </select>
                 </div>
             </div>
